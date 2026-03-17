@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio — Programmer & Robotics Engineer</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#" class="nav-logo">Anonymous<span>_</span>D</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <div class="hero-tag">// available for hire</div>
+      <h1 class="hero-title">
+        Building<br>
+        <span class="line2">Systems</span> &amp;<br>
+        <span class="accent">Robots.</span>
+      </h1>
+      <p class="hero-sub">Programmer and robotics engineer passionate about low-level control, embedded systems, and
+        clean web interfaces. From Arduino circuits to full-stack apps.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="terminal">
+        <div class="terminal-bar">
+          <span class="dot dot-r"></span>
+          <span class="dot dot-y"></span>
+          <span class="dot dot-g"></span>
+          <span class="terminal-title">~/portfolio — bash</span>
+        </div>
+        <div class="terminal-body">
+          <div class="tl"><span class="tl-prompt">➜</span> <span class="tl-cmd">cat developer.json</span></div>
+          <div class="tl tl-out">{</div>
+          <div class="tl tl-out">&nbsp;&nbsp;<span class="tl-key">"name"</span>: <span class="tl-str">"
+              Andre Adongo"</span>,</div>
+          <div class="tl tl-out">&nbsp;&nbsp;<span class="tl-key">"role"</span>: <span class="tl-str">"Programmer &
+              Robotics Eng."</span>,</div>
+          <div class="tl tl-out">&nbsp;&nbsp;<span class="tl-key">"languages"</span>: [</div>
+          <div class="tl tl-out">&nbsp;&nbsp;&nbsp;&nbsp;<span class="tl-str">"Python"</span>, <span
+              class="tl-str">"C"</span>, <span class="tl-str">"Java"</span>,</div>
+          <div class="tl tl-out">&nbsp;&nbsp;&nbsp;&nbsp;<span class="tl-str">"HTML"</span>, <span
+              class="tl-str">"CSS"</span>, <span class="tl-str">"Arduino"</span></div>
+          <div class="tl tl-out">&nbsp;&nbsp;],</div>
+          <div class="tl tl-out">&nbsp;&nbsp;<span class="tl-key">"passion"</span>: <span class="tl-str">"robotics +
+              embedded"</span>,</div>
+          <div class="tl tl-out">&nbsp;&nbsp;<span class="tl-key">"status"</span>: <span class="tl-val">available</span>
+          </div>
+          <div class="tl tl-out">}</div>
+          <div class="tl" style="margin-top:0.8rem"><span class="tl-prompt">➜</span> <span class="cursor"></span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section-label">// 01 — Expertise</div>
+    <h2 class="section-title">Skills & Technologies</h2>
+    <div class="section-divider"></div>
+
+    <div class="skills-grid">
+      <div class="skill-card reveal" style="--card-color: #ff9e64;">
+        <div class="skill-icon">🤖</div>
+        <div class="skill-name">Robotics</div>
+        <div class="skill-desc">Designing and building autonomous systems with sensor integration, motor control, and
+          real-time decision making.</div>
+        <div class="skill-bar-wrap">
+          <div class="skill-bar-label"><span>Proficiency</span><span>90%</span></div>
+          <div class="skill-bar-bg">
+            <div class="skill-bar-fill" data-width="90"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-card reveal" style="--card-color: #00ff88;">
+        <div class="skill-icon">⚡</div>
+        <div class="skill-name">Arduino / Embedded</div>
+        <div class="skill-desc">Microcontroller programming, sensor interfacing, PWM control, I2C/SPI protocols, and
+          real-time systems.</div>
+        <div class="skill-bar-wrap">
+          <div class="skill-bar-label"><span>Proficiency</span><span>88%</span></div>
+          <div class="skill-bar-bg">
+            <div class="skill-bar-fill" data-width="88"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-card reveal" style="--card-color: #3b82f6;">
+        <div class="skill-icon">🐍</div>
+        <div class="skill-name">Python</div>
+        <div class="skill-desc">Data processing, automation scripts, computer vision with OpenCV, and robotics
+          middleware like ROS.</div>
+        <div class="skill-bar-wrap">
+          <div class="skill-bar-label"><span>Proficiency</span><span>92%</span></div>
+          <div class="skill-bar-bg">
+            <div class="skill-bar-fill" data-width="92"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-card reveal" style="--card-color: #ff4466;">
+        <div class="skill-icon">☕</div>
+        <div class="skill-name">Java</div>
+        <div class="skill-desc">Object-oriented design, data structures, algorithms, and desktop application
+          development.</div>
+        <div class="skill-bar-wrap">
+          <div class="skill-bar-label"><span>Proficiency</span><span>80%</span></div>
+          <div class="skill-bar-bg">
+            <div class="skill-bar-fill" data-width="80"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-card reveal" style="--card-color: #a78bfa;">
+        <div class="skill-icon">⚙️</div>
+        <div class="skill-name">C</div>
+        <div class="skill-desc">Low-level systems programming, memory management, embedded firmware, and
+          performance-critical code.</div>
+        <div class="skill-bar-wrap">
+          <div class="skill-bar-label"><span>Proficiency</span><span>85%</span></div>
+          <div class="skill-bar-bg">
+            <div class="skill-bar-fill" data-width="85"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-card reveal" style="--card-color: #f59e0b;">
+        <div class="skill-icon">🌐</div>
+        <div class="skill-name">HTML & CSS</div>
+        <div class="skill-desc">Semantic markup, responsive layouts, CSS animations, and building polished, accessible
+          web interfaces.</div>
+        <div class="skill-bar-wrap">
+          <div class="skill-bar-label"><span>Proficiency</span><span>82%</span></div>
+          <div class="skill-bar-bg">
+            <div class="skill-bar-fill" data-width="82"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-label">// 02 — Work</div>
+    <h2 class="section-title">Featured Projects</h2>
+    <div class="section-divider"></div>
+  
+    <div class="projects-grid">
+      <div class="project-card reveal">
+        <div class="project-header">
+          <span class="project-type">Web</span>
+          <div class="project-links">
+            <a href="class assignments\to-do list\index.html" class="project-link" title="GitHub">GH</a>
+            <a href="#" class="project-link" title="Live">↗</a>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-name">To-Do List</div>
+          <div class="project-desc">A web dashboard for creating a to do list with real-time updates and task management.</div>
+          <div class="project-tags">
+            <span class="tag yellow">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag cream">JavaScript</span>
+          </div>
+        </div>
+      </div>
+  
+      <div class="project-card reveal">
+        <div class="project-header">
+          <span class="project-type">Robotics</span>
+          <div class="project-links">
+            <a href="#" class="project-link" title="GitHub">GH</a>
+            <a href="#" class="project-link" title="Live">↗</a>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-name">Autonomous Line Follower</div>
+          <div class="project-desc">A robot using IR sensors and PID control to follow lines with adaptive speed.
+            Implemented real-time feedback loop on Arduino with sub-10ms response time.</div>
+          <div class="project-tags">
+            <span class="tag">Arduino</span>
+            <span class="tag yellow">C</span>
+            <span class="tag red">Robotics</span>
+            <span class="tag blue">PID</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-header">
+          <span class="project-type">Computer Vision</span>
+          <div class="project-links">
+            <a href="#" class="project-link" title="GitHub">GH</a>
+            <a href="#" class="project-link" title="Live">↗</a>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-name">Object Detection Robot</div>
+          <div class="project-desc">Raspberry Pi-powered robot with OpenCV-based object detection. Identifies and tracks
+            objects in real time and adjusts movement accordingly.</div>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag blue">OpenCV</span>
+            <span class="tag red">Robotics</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-header">
+          <span class="project-type">Embedded Systems</span>
+          <div class="project-links">
+            <a href="#" class="project-link" title="GitHub">GH</a>
+            <a href="#" class="project-link" title="Live">↗</a>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-name">Smart Home Controller</div>
+          <div class="project-desc">Arduino-based home automation system with temperature, humidity, and motion sensors.
+            Controls appliances via relay modules and OLED status display.</div>
+          <div class="project-tags">
+            <span class="tag">Arduino</span>
+            <span class="tag yellow">C</span>
+            <span class="tag blue">IoT</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-header">
+          <span class="project-type">Data Structures</span>
+          <div class="project-links">
+            <a href="#" class="project-link" title="GitHub">GH</a>
+            <a href="#" class="project-link" title="Live">↗</a>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-name">Algorithm Visualizer</div>
+          <div class="project-desc">Java Swing application that visualizes sorting and pathfinding algorithms in
+            real-time. Supports bubble, merge, quicksort, Dijkstra, and A* algorithms.</div>
+          <div class="project-tags">
+            <span class="tag red">Java</span>
+            <span class="tag blue">Algorithms</span>
+            <span class="tag">Visualization</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-header">
+          <span class="project-type">Web</span>
+          <div class="project-links">
+            <a href="#" class="project-link" title="GitHub">GH</a>
+            <a href="#" class="project-link" title="Live">↗</a>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-name">Robot Telemetry Dashboard</div>
+          <div class="project-desc">Real-time web dashboard for monitoring robot sensor data. Displays live graphs for
+            temperature, motor speed, and battery status from serial COM data.</div>
+          <div class="project-tags">
+            <span class="tag yellow">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag blue">Python</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-header">
+          <span class="project-type">Systems</span>
+          <div class="project-links">
+            <a href="#" class="project-link" title="GitHub">GH</a>
+            <a href="#" class="project-link" title="Live">↗</a>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-name">Custom RTOS Scheduler</div>
+          <div class="project-desc">A lightweight round-robin task scheduler written in C for bare-metal embedded
+            targets. Supports priorities, delays, and mutex-like synchronization primitives.</div>
+          <div class="project-tags">
+            <span class="tag yellow">C</span>
+            <span class="tag red">RTOS</span>
+            <span class="tag blue">Embedded</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <div class="section-label">// 03 — About Me</div>
+        <h2 class="section-title">The Engineer Behind The Code</h2>
+        <div class="section-divider"></div>
+        <p>I'm a programmer with a deep passion for <strong>robotics and embedded systems</strong>. I love the
+          intersection of hardware and software — the moment a robot moves because of code you wrote is unlike anything
+          else.</p>
+        <p>My journey started with Arduino experiments and has grown to include full autonomous robot builds, computer
+          vision systems, and low-level firmware development in C. I bring the same precision and attention to detail to
+          web development with HTML and CSS.</p>
+        <p>When I'm not coding, I'm probably <strong>tinkering with circuits</strong>, reading about control theory, or
+          building the next project. I believe in clean code, well-documented systems, and never stop learning.</p>
+        <div style="margin-top:2rem">
+          <a href="#contact" class="btn btn-primary">Work With Me</a>
+        </div>
+      </div>
+
+      <div class="about-stats reveal">
+        <div class="stat-box">
+          <div class="stat-num">20+</div>
+          <div class="stat-label">Projects Built</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num">6</div>
+          <div class="stat-label">Languages</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num">5+</div>
+          <div class="stat-label">Years Coding</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num">∞</div>
+          <div class="stat-label">Curiosity</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="contact-inner reveal">
+      <div class="section-label">// 04 — Contact</div>
+      <h2 class="section-title">Let's Build Something.</h2>
+      <div class="section-divider" style="margin:1rem auto 1.5rem;"></div>
+      <p style="color:var(--muted);font-size:0.9rem;">Have a project in mind? Want to collaborate on a robot, embedded
+        system, or web app? I'd love to hear from you.</p>
+      <a href="/cdn-cgi/l/email-protection#254d4049494a655c4a5057554a5751434a494c4a0b414053" class="contact-email"><span
+          class="__cf_email__"
+          data-cfemail="b3dbd6dfdfdcf3cadcc6c1c3dcc1c7d5dcdfdadc9dd7d6c5">[email&#160;protected]</span></a>
+      <div class="socials">
+        <a href="#" class="social-btn">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+          </svg>
+          GitHub
+        </a>
+        <a href="#" class="social-btn">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+          </svg>
+          LinkedIn
+        </a>
+        <a href="#" class="social-btn">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
+          </svg>
+          Twitter
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <span>© 2025 Andre Adongo. Built with HTML & CSS.</span>
+    <span>Designed with <span style="color:var(--accent)">♥</span> & <span
+        style="color:var(--muted)">caffeine</span></span>
+  </footer>
+
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+  <script>
+    // Mobile nav toggle
+    const toggle = document.getElementById('navToggle');
+    const links = document.getElementById('navLinks');
+    toggle.addEventListener('click', () => links.classList.toggle('open'));
+    links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => links.classList.remove('open')));
+
+    // Scroll reveal + skill bars
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(el => {
+        if (el.isIntersecting) {
+          el.target.classList.add('visible');
+          // animate skill bars
+          el.target.querySelectorAll && el.target.querySelectorAll('.skill-bar-fill').forEach(bar => {
+            bar.style.width = bar.dataset.width + '%';
+          });
+          observer.unobserve(el.target);
+        }
+      });
+    }, { threshold: 0.12 });
+
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+    // Also trigger skill bars when skill section scrolls in
+    document.querySelectorAll('.skill-bar-fill').forEach(bar => {
+      const card = bar.closest('.skill-card');
+      if (card) {
+        const cardObs = new IntersectionObserver((entries) => {
+          entries.forEach(e => {
+            if (e.isIntersecting) {
+              bar.style.width = bar.dataset.width + '%';
+              cardObs.unobserve(e.target);
+            }
+          });
+        }, { threshold: 0.3 });
+        cardObs.observe(card);
+      }
+    });
+  </script>
+</body>
+`
+</html>
